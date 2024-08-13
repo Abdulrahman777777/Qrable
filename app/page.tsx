@@ -69,7 +69,7 @@ export default function Home() {
         className="rounded-lg w-1/2 h-3/4 bg-white dark:bg-black border-transparent border-none absolute flex justify-center"
       >
         <div className="stuff flex flex-col justify-around items-center ">
-          <h1 className="font-other text-1xl">Here's you're Qr Code😁🪄</h1>
+          <h1 className="font-other text-1xl">{"Here's you're Qr Code😁🪄"}</h1>
           <Image
             alt={`Qr-code that opens ${ref.current.value}`}
             width="180"
